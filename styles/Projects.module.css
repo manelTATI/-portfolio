@@ -1,0 +1,24 @@
+.header {
+  padding: var(--space-xl) 0 var(--space-l);
+}
+
+.title {
+  margin-bottom: var(--space-s);
+}
+
+.lead {
+  max-width: 32rem;
+  margin-left: auto;
+  color: var(--muted);
+  font-size: var(--fs-lead);
+}
+
+.list > article:last-child {
+  border-bottom: var(--hairline);
+}
+
+@media (max-width: 720px) {
+  .lead {
+    margin-left: 0;
+  }
+}
